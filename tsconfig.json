@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "es6",
     "module": "commonjs",
     "allowJs": true,
     "checkJs": false,
@@ -14,22 +14,8 @@
     "experimentalDecorators": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist",
-    "sourceMap": true,
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ScriptHost",
-      "es2016"
-    ]
+    "outDir": "./dist"
   },
-  "exclude": [
-    "node_modules",
-    "/"
-  ],
-  "include": [
-    "src/**/*",
-    "modules.d.ts",
-    "tsconfig.json"
-  ]
+  "exclude": ["node_modules", "/"],
+  "include": ["src/**/*", "modules.d.ts"]
 }
