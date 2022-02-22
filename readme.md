@@ -1,1 +1,1 @@
-https://github.com/Alexgargun/christmas-task
+https://alexgargun.github.io/christmas-task
