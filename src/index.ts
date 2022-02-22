@@ -111,13 +111,13 @@ tree.forEach((treeItem: { addEventListener: (arg0: string, arg1: (e: any) => voi
 const mainTreeContainer:HTMLElement = document.querySelector('.main-tree-container')!
 const bg:any = document.querySelectorAll('.bg')
 
-mainTreeContainer.style.backgroundImage = `url(../assets/bg/${JSON.parse(localStorage.getItem('bg-num')!)}.jpg)`
+mainTreeContainer.style.backgroundImage = `url(./assets/bg/${JSON.parse(localStorage.getItem('bg-num')!)}.jpg)`
 
 
 
 bg.forEach((element: { addEventListener: (arg0: string, arg1: (e: any) => void) => void }) => {
   element.addEventListener('click', (e: { target: { dataset: { bg: any } } }) => {
-    mainTreeContainer.style.backgroundImage = `url(../assets/bg/${e.target.dataset.bg}.jpg)`
+    mainTreeContainer.style.backgroundImage = `url(./assets/bg/${e.target.dataset.bg}.jpg)`
     localStorage.setItem('bg-num', JSON.stringify(e.target.dataset.bg))
   })
 });

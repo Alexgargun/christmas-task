@@ -38,7 +38,7 @@
   .logo {
     width: 48px;
     height: 60px;
-    background-image: url("../assets/svg/tree.svg");
+    background-image: url("./assets/svg/tree.svg");
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -105,7 +105,7 @@
     color: #fff;
     font-size: 18px;
     background-color: rgba(31, 112, 127, 0.3);
-    background-image: url("../assets/svg/search.svg");
+    background-image: url("./assets/svg/search.svg");
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 330px center;
@@ -119,7 +119,7 @@
   .select {
     width: 48px;
     height: 60px;
-    background-image: url("../assets/svg/ball-2.svg");
+    background-image: url("./assets/svg/ball-2.svg");
     background-size: 48px 60px;
     background-position: left -8px;
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@
   .page {
     min-width: 100%;
     min-height: calc(100vh - 140px);
-    background-image: url("../assets/bg.jpg");
+    background-image: url("./assets/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
   }
@@ -174,7 +174,7 @@
     height: 500px;
     left: calc(50% - 550px);
     top: 150px;
-    background-image: url("../assets/ball/1.png");
+    background-image: url("./assets/ball/1.png");
   }
   
   .ball2 {
@@ -182,7 +182,7 @@
     height: 300px;
     left: calc(50% + 150px);
     top: 150px;
-    background-image: url("../assets/ball/2.png");
+    background-image: url("./assets/ball/2.png");
   }
   
   .ball::before {
@@ -399,7 +399,7 @@
     margin: 10px 0;
     margin-bottom: 125px;
     background-color: rgba(31, 112, 127, 0.3);
-    background-image: url("../assets/svg/arrow-down.svg");
+    background-image: url("./assets/svg/arrow-down.svg");
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 340px center;
@@ -485,20 +485,20 @@
       brightness(83%) contrast(88%);
   }
   .shape button:nth-child(1) {
-    background-image: url("../assets/svg/ball.svg");
+    background-image: url("./assets/svg/ball.svg");
     margin-left: 20px;
   }
   .shape button:nth-child(2) {
-    background-image: url("../assets/svg/bell.svg");
+    background-image: url("./assets/svg/bell.svg");
   }
   .shape button:nth-child(3) {
-    background-image: url("../assets/svg/cone.svg");
+    background-image: url("./assets/svg/cone.svg");
   }
   .shape button:nth-child(4) {
-    background-image: url("../assets/svg/snowflake.svg");
+    background-image: url("./assets/svg/snowflake.svg");
   }
   .shape button:nth-child(5) {
-    background-image: url("../assets/svg/toy.svg");
+    background-image: url("./assets/svg/toy.svg");
   }
   
   .color button {
@@ -570,7 +570,7 @@
     margin: 5px 5px;
     border: 0;
     outline: 0;
-    background-image: url("../assets/svg/ball.svg");
+    background-image: url("./assets/svg/ball.svg");
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
@@ -690,7 +690,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url("../assets/bg/1.jpg");
+    background-image: url("./assets/bg/1.jpg");
     background-size: cover;
     background-position: center;
     height: calc(100vh - 140px);
@@ -849,14 +849,14 @@
   .snow-control {
     width: 40px;
     height: 40px;
-    background-image: url("../assets/svg/snow.svg");
+    background-image: url("./assets/svg/snow.svg");
   }
 
   .fa-snowflake {
     z-index: 1;
     width: 40px;
     height: 40px;
-    background-image: url("../assets/svg/snow.svg") ;
+    background-image: url("./assets/svg/snow.svg") ;
     background-size: cover;
     color: #fff;
     position: absolute;
@@ -874,7 +874,7 @@
     width: 40px;
     height: 40px;
     margin-right: 40px;
-    background-image: url("../assets/svg/audio.svg");
+    background-image: url("./assets/svg/audio.svg");
   }
   
   .snow-control.active,
@@ -895,34 +895,34 @@
   }
   
   .bg:nth-child(1) {
-    background-image: url("../assets/bg/1.jpg");
+    background-image: url("./assets/bg/1.jpg");
   }
   .bg:nth-child(2) {
-    background-image: url("../assets/bg/2.jpg");
+    background-image: url("./assets/bg/2.jpg");
   }
   .bg:nth-child(3) {
-    background-image: url("../assets/bg/3.jpg");
+    background-image: url("./assets/bg/3.jpg");
   }
   .bg:nth-child(4) {
-    background-image: url("../assets/bg/4.jpg");
+    background-image: url("./assets/bg/4.jpg");
   }
   .bg:nth-child(5) {
-    background-image: url("../assets/bg/5.jpg");
+    background-image: url("./assets/bg/5.jpg");
   }
   .bg:nth-child(6) {
-    background-image: url("../assets/bg/6.jpg");
+    background-image: url("./assets/bg/6.jpg");
   }
   .bg:nth-child(7) {
-    background-image: url("../assets/bg/7.jpg");
+    background-image: url("./assets/bg/7.jpg");
   }
   .bg:nth-child(8) {
-    background-image: url("../assets/bg/8.jpg");
+    background-image: url("./assets/bg/8.jpg");
   }
   .bg:nth-child(9) {
-    background-image: url("../assets/bg/9.jpg");
+    background-image: url("./assets/bg/9.jpg");
   }
   .bg:nth-child(10) {
-    background-image: url("../assets/bg/10.jpg");
+    background-image: url("./assets/bg/10.jpg");
   }
   
   .tree {
@@ -934,22 +934,22 @@
   }
   
   .tree:nth-child(1) {
-    background-image: url("../assets/tree/1.png");
+    background-image: url("./assets/tree/1.png");
   }
   .tree:nth-child(2) {
-    background-image: url("../assets/tree/2.png");
+    background-image: url("./assets/tree/2.png");
   }
   .tree:nth-child(3) {
-    background-image: url("../assets/tree/3.png");
+    background-image: url("./assets/tree/3.png");
   }
   .tree:nth-child(4) {
-    background-image: url("../assets/tree/4.png");
+    background-image: url("./assets/tree/4.png");
   }
   .tree:nth-child(5) {
-    background-image: url("../assets/tree/5.png");
+    background-image: url("./assets/tree/5.png");
   }
   .tree:nth-child(6) {
-    background-image: url("../assets/tree/6.png");
+    background-image: url("./assets/tree/6.png");
   }
   
   .garland-container {
@@ -1115,7 +1115,7 @@
     height: 60px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("../assets/svg/rss.svg");
+    background-image: url("./assets/svg/rss.svg");
     transition: 0.3s;
   }
   
